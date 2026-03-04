@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>推理小说档案馆</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Source+Serif+4:ital,wght@0,300;0,400;0,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div id="top"></div>
+    <div class="background-overlay"></div>
+    <div class="container">
+        <header class="header">
+            <div class="header__logo">
+                <h1 class="logo__text">
+                    <span class="logo__text--italic">THE</span>
+                    推理小说档案馆
+                    <span class="logo__text--small">Mystery Novel Archive</span>
+                </h1>
+            </div>
+            <nav class="header__nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#top" class="nav__link active">首页</a></li>
+                    <li class="nav__item"><a href="#books" class="nav__link">经典作品</a></li>
+                    <li class="nav__item"><a href="#masters" class="nav__link">作家专栏</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="hero">
+            <div class="hero__content">
+                <h2 class="hero__title">
+                    <span class="hero__title--decor">「</span>
+                    我的推荐：<br>
+                    真相藏在文字的缝隙里，书中世界和现实世界的谋杀重合
+                    <span class="hero__title--decor">」</span>
+                </h2>
+                <p class="hero__subtitle">带你探索最经典的推理小说，解开文字背后的谜题</p>
+                <a href="https://en.wikipedia.org/wiki/Magpie_Murders" class="btn btn--primary"  target="_blank">开始探索</a>
+                <a href="https://www.imdb.com/title/tt13186264/" class="btn btn--primary" target="_blank">相关影视</a>
+            </div>
+            <div class="hero__image">
+                <video class="hero-video" autoplay muted loop playsinline>
+                    <source src="materials\喜鹊谋杀案件.mp4" type="video/mp4">
+                </video>
+
+                <div class="hero__note">
+                    <p class="note__text">喜鹊谋杀案</p>
+                    <p class="note__text">作者: 安东尼·霍洛维茨</p>
+                    <p class="note__text">国家：英国</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="books" class="books">
+            <h3 class="section__title"><br>精选推理小说</h3>
+            <div class="books__grid">
+                <!-- 1. 无人生还 -->
+                <div class="book-card">
+                    <div class="book-card__img-container">
+                        <img src="materials\无人生还.png" alt="无人生还" class="book-card__img">
+                    </div>
+                    <div class="book-card__content">
+                        <h4 class="book-card__title">无人生还</h4>
+                        <p class="book-card__author">阿加莎·克里斯蒂</p>
+                        <p class="book-card__desc">十个陌生人被困孤岛，按童谣预言逐一死亡，最终无人生还，成为推理史上完美悬案。</p>
+                        <a href="https://zh.wikipedia.org/wiki/%E4%B8%80%E5%80%8B%E9%83%BD%E4%B8%8D%E7%95%99"
+                            class="btn btn--secondary" target="_blank">查看详情</a>
+                    </div>
+                </div>
+
+                <!-- 2. 福尔摩斯探案全集 -->
+                <div class="book-card">
+                    <div class="book-card__img-container">
+                        <img src="materials\福尔摩斯探案集.png" alt="福尔摩斯探案全集" class="book-card__img">
+                    </div>
+                    <div class="book-card__content">
+                        <h4 class="book-card__title">福尔摩斯探案全集</h4>
+                        <p class="book-card__author">阿瑟·柯南·道尔</p>
+                        <p class="book-card__desc">现代侦探小说奠基之作，福尔摩斯与华生联手，用极致逻辑破解无数奇案，影响后世百年。</p>
+                        <a href="https://zh.wikipedia.org/wiki/%E7%A6%8F%E5%B0%94%E6%91%A9%E6%96%AF%E6%8E%A2%E6%A1%88"
+                            class="btn btn--secondary" target="_blank">查看详情</a>
+                    </div>
+                </div>
+
+                <!-- 3. 白夜行 -->
+                <div class="book-card">
+                    <div class="book-card__img-container">
+                        <img src="materials\白夜行.png" alt="白夜行" class="book-card__img">
+                    </div>
+                    <div class="book-card__content">
+                        <h4 class="book-card__title">白夜行</h4>
+                        <p class="book-card__author">东野圭吾</p>
+                        <p class="book-card__desc">横跨十九年的黑暗羁绊，两人在白夜中相互依偎，用绝望的守护，掩盖不为人知的秘密。</p>
+                        <a href="https://zh.wikipedia.org/wiki/%E7%99%BD%E5%A4%9C%E8%A1%8C"
+                            class="btn btn--secondary" target="_blank">查看详情</a>
+                    </div>
+                </div>
+
+                <!-- 4. 东方快车谋杀案 -->
+                <div class="book-card">
+                    <div class="book-card__img-container">
+                        <img src="materials\东方快车谋杀案.png" alt="东方快车谋杀案" class="book-card__img">
+                    </div>
+                    <div class="book-card__content">
+                        <h4 class="book-card__title">东方快车谋杀案</h4>
+                        <p class="book-card__author">阿加莎·克里斯蒂</p>
+                        <p class="book-card__desc">暴风雪封死豪华列车，富商离奇遇害，波洛侦探抽丝剥茧，揭开一场震撼人心的集体复仇。</p>
+                        <a href="https://zh.wikipedia.org/wiki/%E6%9D%B1%E6%96%B9%E5%BF%AB%E8%BB%8A%E8%AC%80%E6%AE%BA%E6%A1%88"
+                            class="btn btn--secondary" target="_blank">查看详情</a>
+                    </div>
+                </div>
+
+                <!-- 5. 漫长的告别 -->
+                <div class="book-card">
+                    <div class="book-card__img-container">
+                        <img src="materials\漫长的告白.png" alt="漫长的告别" class="book-card__img">
+                    </div>
+                    <div class="book-card__content">
+                        <h4 class="book-card__title">漫长的告别</h4>
+                        <p class="book-card__author">雷蒙德·钱德勒</p>
+                        <p class="book-card__desc">硬汉派推理灵魂之作，侦探马洛与神秘酒鬼相遇，一场优雅而漫长的告别，藏着致命真相。</p>
+                        <a href="https://zh.wikipedia.org/wiki/%E6%BC%AB%E9%95%B7%E7%9A%84%E5%91%8A%E5%88%A5"
+                            class="btn btn--secondary" target="_blank">查看详情</a>
+                    </div>
+                </div>
+
+                <!-- 6. 三口棺材 -->
+                <div class="book-card">
+                    <div class="book-card__img-container">
+                        <img src="materials\三口棺材.png" alt="三口棺材" class="book-card__img">
+                    </div>
+                    <div class="book-card__content">
+                        <h4 class="book-card__title">三口棺材</h4>
+                        <p class="book-card__author">约翰·迪克森·卡尔</p>
+                        <p class="book-card__desc">密室推理的巅峰之作，包含经典的“密室讲义”，双重密室诡计至今无人能出其右。</p>
+                        <a href="https://zh.wikipedia.org/wiki/%E4%B8%89%E5%8F%A3%E6%A3%BA%E6%9D%90"
+                            class="btn btn--secondary" target="_blank">查看详情</a>
+                    </div>
+                </div>
+
+                <!-- 7. 达·芬奇密码 -->
+                <div class="book-card">
+                    <div class="book-card__img-container">
+                        <img src="materials\达·芬奇密码.png" alt="达·芬奇密码" class="book-card__img">
+                    </div>
+                    <div class="book-card__content">
+                        <h4 class="book-card__title">达·芬奇密码</h4>
+                        <p class="book-card__author">丹·布朗</p>
+                        <p class="book-card__desc">全球现象级悬疑力作，符号学、宗教与历史交织，一场跨越欧洲的解谜之旅，全程高能反转。</p>
+                        <a href="https://zh.wikipedia.org/wiki/%E9%81%94%E6%96%87%E8%A5%BF%E5%AF%86%E7%A2%BC"
+                            class="btn btn--secondary" target="_blank">查看详情</a>
+                    </div>
+                </div>
+
+                <!-- 8. 恶意 -->
+                <div class="book-card">
+                    <div class="book-card__img-container">
+                        <img src="materials\恶意.png" alt="恶意" class="book-card__img">
+                    </div>
+                    <div class="book-card__content">
+                        <h4 class="book-card__title">恶意</h4>
+                        <p class="book-card__author">东野圭吾</p>
+                        <p class="book-card__desc">动机派悬疑神作，杀人从不是目的，而是开始，深挖人性深处最纯粹、最可怕的嫉妒与恶意。</p>
+                        <a href="https://zh.wikipedia.org/wiki/%E6%83%A1%E6%84%8F_(%E5%B0%8F%E8%AA%AA)"
+                            class="btn btn--secondary" target="_blank">查看详情</a>
+                    </div>
+                </div>
+
+                <!-- 9. 绝叫 -->
+                <div class="book-card">
+                    <div class="book-card__img-container">
+                        <img src="materials\绝叫.png" alt="绝叫" class="book-card__img">
+                    </div>
+                    <div class="book-card__content">
+                        <h4 class="book-card__title">绝叫</h4>
+                        <p class="book-card__author">叶真中显</p>
+                        <p class="book-card__desc">日本社会派悬疑代表作，以女性视角，讲述一段被嫌弃的一生，底层绝望与人性沉沦直击人心。</p>
+                        <a href="https://zh.wikipedia.org/wiki/%E7%B5%95%E5%8F%AB" class="btn btn--secondary" target="_blank">查看详情</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 作家专栏（推理大师） -->
+        <section id="masters" class="masters">
+            <h3 class="section__title">推理小说大师</h3>
+            <div class="masters__grid">
+                <!-- 给整个卡片外层套<a>标签，href填你要跳转的网址 -->
+                <a href="https://zh.wikipedia.org/wiki/%E9%98%BF%E5%8A%A0%E8%8E%8E%C2%B7%E5%85%8B%E9%87%8C%E6%96%AF%E8%92%82" class="master-card__link" target="_blank">
+                    <div class="master-card">
+                        <img src="materials\阿加莎·克里斯蒂.png" alt="阿加莎·克里斯蒂" class="master-card__img">
+                        <h4 class="master-card__name">阿加莎·克里斯蒂</h4>
+                        <p class="master-card__desc">推理女王，开创了暴风雪山庄、叙述性诡计、毒杀等经典推理模式</p>
+                    </div>
+                </a>
+                <a href="https://zh.wikipedia.org/wiki/%E6%9D%B1%E9%87%8E%E5%9C%AD%E5%90%BE" class="master-card__link" target="_blank">
+                    <div class="master-card">
+                        <img src="materials\东野圭吾.png" alt="东野圭吾" class="master-card__img">
+                        <h4 class="master-card__name">东野圭吾</h4>
+                        <p class="master-card__desc">日本推理小说天王/社会派推理巅峰级作家，讲述人性与诡计的大师</p>
+                    </div>
+                </a>
+                <a href="https://zh.wikipedia.org/wiki/%E9%98%BF%E7%91%9F%C2%B7%E6%9F%AF%E5%8D%97%C2%B7%E9%81%93%E5%B0%94" class="master-card__link" target="_blank">
+                    <div class="master-card">
+                        <img src="materials\阿瑟·柯南·道尔.png" alt="柯南·道尔" class="master-card__img">
+                        <h4 class="master-card__name">阿瑟·柯南·道尔</h4>
+                        <p class="master-card__desc">福尔摩斯之父，开创侦探小说黄金时代，现代侦探小说的奠基人</p>
+                    </div>
+                </a>
+                <a href="https://zh.wikipedia.org/wiki/%E9%9B%B7%E8%92%99%C2%B7%E9%8C%A2%E5%BE%B7%E5%8B%92" class="master-card__link" target="_blank">
+                    <div class="master-card">
+                        <img src="materials\雷蒙德·钱德勒.png" alt="雷蒙德·钱德勒" class="master-card__img">
+                        <h4 class="master-card__name">雷蒙德·钱德勒</h4>
+                        <p class="master-card__desc">文学与推理完美融合，硬汉派推理宗师，侦探菲利普・马洛的缔造者</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        const navLinks = document.querySelectorAll('.nav__link');
+        navLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                e.preventDefault();
+                navLinks.forEach(l => l.classList.remove('active'));
+                link.classList.add('active');
+            });
+        });
+
+        // 平滑滚动
+        document.querySelectorAll('.nav__link').forEach(link => {
+            link.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 80,
+                        behavior: 'smooth'
+                    });
+                }
+
+                // 切换高亮
+                document.querySelectorAll('.nav__link').forEach(l => l.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>
